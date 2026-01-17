@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">47.94.246.110</domain><!-- 或者你的域名 -->
+        <trust-anchors>
+            <certificates src="@raw/my_ca"/>
+        </trust-anchors>
+    </domain-config>
+</network-security-config>
